@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.course {
+  margin: 50px;
+}
+
+.heading {
+  margin-left: 50px;
+}
+
+.list-course {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.loader-container {
+  align-self: center;
+}
+
+.render-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}

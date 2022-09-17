@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.course-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.course-card {
+  width: 80%;
+  display: flex;
+  box-shadow: 5px 5px 5px #e8e8e8;
+}
+
+.course-img {
+  width: 400px;
+}
+
+.text-container {
+  padding: 40px;
+  background-color: white;
+}
+
+.description {
+  margin-top: 15px;
+  font-size: 20px;
+  line-height: 1.8;
+  color: #64748b;
+}
+
+.loader-container {
+  align-self: center;
+}
